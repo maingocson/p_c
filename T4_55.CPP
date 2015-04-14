@@ -14,7 +14,6 @@ void main()
 	fflush(stdin);
 	for(int i=1;i<=n;i++)
 	{
-//                printf("");
 		tong+=i;
 		s+=(double)pow(x,i)/tong;
 	}
